@@ -1,7 +1,7 @@
 # test-code
 this is a project i made for testing the linux terminal
 
-packages needed
+packages needed:
 python3
 pip3
 feh
