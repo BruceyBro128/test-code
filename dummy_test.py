@@ -18,8 +18,9 @@ while True:
         elif input_for_dummy == '2':
             dummy_boolean = False
         
-        elif input_for_dummy == '6':
-            sys.exit(0)
+        elif input_for_dummy == '3':
+            print(dummy_string)
+            print("qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890")
 
         elif input_for_dummy == '4':
             current_time = time.ctime()
@@ -29,8 +30,7 @@ while True:
             image_filename = "dummy_image.png"
             os.system(f"feh {image_filename} &")
         elif input_for_dummy == '3':
-            print(dummy_string)
-            print("qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890")
+            sys.exit
         
         if dummy_boolean == True:
             print("dummy boolean is true")
