@@ -29,7 +29,8 @@ while True:
         elif input_for_dummy == '5':
             image_filename = "dummy_image.png"
             os.system(f"feh {image_filename} &")
-        elif input_for_dummy == '3':
+        
+        elif input_for_dummy == '6':
             sys.exit
         
         if dummy_boolean == True:
